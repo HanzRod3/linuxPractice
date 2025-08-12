@@ -1,0 +1,17 @@
+{
+  "name": "Ubuntu 22.04",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {},
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y htop tree curl git man-db",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.remote-repositories",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
