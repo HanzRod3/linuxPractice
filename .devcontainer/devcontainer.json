@@ -2,7 +2,8 @@
   "name": "Ubuntu 22.04",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
   "features": {},
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y htop tree curl git man-db manpages vim nano net-tools iproute2 && mkdir -p ~/linux-practice/{fs,logs,scripts,users} && touch ~/linux-practice/fs/sample1.txt ~/linux-practice/fs/sample2.txt && echo 'Linux Practice Playground Ready!' > ~/linux-practice/README.txt",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y htop tree curl git man-db manpages vim nano net-tools iproute2",
+  "postStartCommand": "bash -lc 'mkdir -p /home/vscode/linux-practice/{fs,logs,scripts,users} && touch /home/vscode/linux-practice/fs/{sample1.txt,sample2.txt} && [ -f /home/vscode/linux-practice/README.txt ] || echo \"Linux Practice Playground Ready!\" > /home/vscode/linux-practice/README.txt'",
   "customizations": {
     "vscode": {
       "extensions": [
