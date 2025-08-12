@@ -2,16 +2,20 @@
   "name": "Ubuntu 22.04",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
   "features": {},
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y htop tree curl git man-db",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y htop tree curl git man-db manpages vim nano net-tools iproute2",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-vscode.remote-repositories",
-        "ms-azuretools.vscode-docker"
+        "ms-azuretools.vscode-docker",
+        "timonwong.shellcheck",
+        "foxundermoon.shell-format"
       ],
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "files.trimTrailingWhitespace": true
       }
     }
-  }
+  },
+  "remoteUser": "vscode"
 }
