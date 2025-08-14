@@ -1,23 +1,58 @@
 # User Roster
 
-This document lists all users, their roles, GitHub usernames, and any notes relevant to their access and responsibilities.
+## alice (Alice Adams)
+- Role: Dev
+- Groups: devs
+- Shell: /bin/bash
+- GitHub: alice-dev
+- Notes: Backend trainee
 
-| Username | Full Name         | Role   | Groups        | Shell       | GitHub        | Notes               |
-|----------|-------------------|--------|--------------|-------------|--------------|---------------------|
-| alice    | Alice Adams       | Dev    | devs         | /bin/bash   | alice-dev    | Backend trainee     |
-| bob      | Bob Brown         | QA     | qa           | /bin/bash   | bob-qa       | Night shift         |
-| carol    | Carol Chen        | Ops    | ops          | /bin/bash   | carol-ops    | On-call rotation    |
-| admin    | Repo Admin        | Admin  | sudo,devs    | /bin/bash   | HanzRod3     | Has sudo            |
-| ivette   | Ivette Vaca       | Dev    | devs         | /bin/bash   | ivette       | New hire            |
-| chloe    | Chloe Rodriguez   | Ops    | ops          | /bin/bash   | chloe        | On-call eligible    |
-| hanz     | Hanzel Rodriguez  | Dev    | devs         | /bin/bash   | HanzRod3     | Portfolio owner     |
-| mylo     | Myo Rodriguez     | Dev    | devs         | /bin/bash   | mylo         | Assistant developer |
+## bob (Bob Brown)
+- Role: QA
+- Groups: qa
+- Shell: /bin/bash
+- GitHub: bob-qa
+- Notes: Night shift
 
----
+## carol (Carol Chen)
+- Role: Ops
+- Groups: ops
+- Shell: /bin/bash
+- GitHub: carol-ops
+- Notes: On-call rotation
 
-## Notes
-- **Role** describes their primary function in the team.
-- **Groups** reflect their Linux group memberships for permissions.
-- **Shell** is the default login shell.
-- **GitHub** is the username for version control contributions.
-- **Notes** include extra context, e.g., training status or shift details.
+## admin (Repo Admin)
+- Role: Admin
+- Groups: sudo,devs
+- Shell: /bin/bash
+- GitHub: HanzRod3
+- Notes: Has sudo
+
+## ivette (Ivette Vaca)
+- Role: Dev
+- Groups: devs
+- Shell: /bin/bash
+- GitHub: ivette
+- Notes: New hire
+
+## chloe (Chloe Rodriguez)
+- Role: Ops
+- Groups: ops
+- Shell: /bin/bash
+- GitHub: chloe
+- Notes: On-call eligible
+
+## hanz (Hanzel Rodriguez)
+- Role: Admin
+- Groups: sudo,devs
+- Shell: /bin/bash
+- GitHub: HanzRod3
+- Notes: Primary maintainer
+
+## mylo (Myo Rodriguez)
+- Role: Dev
+- Groups: devs
+- Shell: /bin/bash
+- GitHub: mylo
+- Notes: Learning path
+

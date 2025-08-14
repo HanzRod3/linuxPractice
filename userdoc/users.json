@@ -4,7 +4,7 @@
       "username": "alice",
       "fullname": "Alice Adams",
       "role": "Dev",
-      "groups": ["devs"],
+      "groups": "devs",
       "shell": "/bin/bash",
       "github": "alice-dev",
       "notes": "Backend trainee"
@@ -13,7 +13,7 @@
       "username": "bob",
       "fullname": "Bob Brown",
       "role": "QA",
-      "groups": ["qa"],
+      "groups": "qa",
       "shell": "/bin/bash",
       "github": "bob-qa",
       "notes": "Night shift"
@@ -22,7 +22,7 @@
       "username": "carol",
       "fullname": "Carol Chen",
       "role": "Ops",
-      "groups": ["ops"],
+      "groups": "ops",
       "shell": "/bin/bash",
       "github": "carol-ops",
       "notes": "On-call rotation"
@@ -31,7 +31,7 @@
       "username": "admin",
       "fullname": "Repo Admin",
       "role": "Admin",
-      "groups": ["sudo", "devs"],
+      "groups": "sudo,devs",
       "shell": "/bin/bash",
       "github": "HanzRod3",
       "notes": "Has sudo"
@@ -40,7 +40,7 @@
       "username": "ivette",
       "fullname": "Ivette Vaca",
       "role": "Dev",
-      "groups": ["devs"],
+      "groups": "devs",
       "shell": "/bin/bash",
       "github": "ivette",
       "notes": "New hire"
@@ -49,7 +49,7 @@
       "username": "chloe",
       "fullname": "Chloe Rodriguez",
       "role": "Ops",
-      "groups": ["ops"],
+      "groups": "ops",
       "shell": "/bin/bash",
       "github": "chloe",
       "notes": "On-call eligible"
@@ -58,7 +58,7 @@
       "username": "hanz",
       "fullname": "Hanzel Rodriguez",
       "role": "Admin",
-      "groups": ["sudo", "devs"],
+      "groups": "sudo,devs",
       "shell": "/bin/bash",
       "github": "HanzRod3",
       "notes": "Primary maintainer"
@@ -67,7 +67,7 @@
       "username": "mylo",
       "fullname": "Myo Rodriguez",
       "role": "Dev",
-      "groups": ["devs"],
+      "groups": "devs",
       "shell": "/bin/bash",
       "github": "mylo",
       "notes": "Learning path"
